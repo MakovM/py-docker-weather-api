@@ -11,7 +11,7 @@ if not API_KEY:
     print("API_KEY is required")
     sys.exit(1)
 
-URL = "http://api.weatherapi.com/v1/current.json"
+URL = "https://api.weatherapi.com/v1/current.json"
 CITY = "Paris"
 
 
